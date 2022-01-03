@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="Import Documents" qualified_name="orangecontrib.text.widgets.owimportdocuments.OWImportDocuments" project_name="Orange3-Text" version="" title="Import Documents" position="(174.0, 170.0)" />
+		<node id="1" name="Corpus Viewer" qualified_name="orangecontrib.text.widgets.owcorpusviewer.OWCorpusViewer" project_name="Orange3-Text" version="" title="Corpus Viewer" position="(320.0, 137.0)" />
+		<node id="2" name="Word Cloud" qualified_name="orangecontrib.text.widgets.owwordcloud.OWWordCloud" project_name="Orange3-Text" version="" title="Word Cloud" position="(531.0, 354.0)" />
+		<node id="3" name="Preprocess Text" qualified_name="orangecontrib.text.widgets.owpreprocess.OWPreprocess" project_name="Orange3-Text" version="" title="Preprocess Text" position="(329.0, 279.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Corpus" sink_channel="Corpus" enabled="true" />
+		<link id="1" source_node_id="0" sink_node_id="3" source_channel="Corpus" sink_channel="Corpus" enabled="true" />
+		<link id="2" source_node_id="3" sink_node_id="2" source_channel="Corpus" sink_channel="Corpus" enabled="true" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASVEQIAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAtjdXJyZW50UGF0aJSMGUM6L1Vz
+ZXJzL3VzZXIvRGVza3RvcC90eHSUjAhsZW1tYV9jYpSJjAZuZXJfY2KUiYwGcG9zX2NilImMDHJl
+Y2VudF9wYXRoc5RdlCiMHm9yYW5nZXdpZGdldC51dGlscy5maWxlZGlhbG9nc5SMClJlY2VudFBh
+dGiUk5QpgZR9lCiMB2Fic3BhdGiUaAOMBnByZWZpeJROjAdyZWxwYXRolE6MBXRpdGxllIwAlIwF
+c2hlZXSUaBKMC2ZpbGVfZm9ybWF0lE51YmgLKYGUfZQoaA6MR0M6L1VzZXJzL3VzZXIvRGVza3Rv
+cC/imIUyMDIy7ZWZ64WE64+EIOygleq4sOyghOuztCDsnpHsl4Uv7IiY7KCV7IKs7ZWtlGgPTmgQ
+TmgRaBJoE2gSaBROdWJljAtyZWNlbnRfdXJsc5RdlIwraHR0cHM6Ly9uZXdzLnYuZGF1bS5uZXQv
+di8yMDIyMDEwMzE2MTExODY3MJRhjBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAALK
+AAABYwAABLYAAAJ+AAACywAAAYkAAAS1AAACfQAAAAAAAAAAB4AAAALLAAABiQAABLUAAAJ9lIwG
+c291cmNllEsAjAtfX3ZlcnNpb25fX5RLAXUu
+</properties>
+		<properties node_id="1" format="pickle">gASVTwIAAAAAAAB9lCiMCmF1dG9jb21taXSUiIwSY29udHJvbEFyZWFWaXNpYmxllIiME3NhdmVk
+V2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAAkYAAADjAAAFOQAAAv0AAAJHAAABCQAABTgAAAL8
+AAAAAAAAAAAHgAAAAkcAAAEJAAAFOAAAAvyUjAtzaG93X3Rva2Vuc5SJjAtfX3ZlcnNpb25fX5RL
+AYwQY29udGV4dF9zZXR0aW5nc5RdlIwVb3Jhbmdld2lkZ2V0LnNldHRpbmdzlIwHQ29udGV4dJST
+lCmBlH2UKIwGdmFsdWVzlH2UKIwQZGlzcGxheV9mZWF0dXJlc5RdlCiMBG5hbWWUS2eGlIwEcGF0
+aJRLZ4aUjAdjb250ZW50lEtnhpRlSv3///+GlIwPZGlzcGxheV9pbmRpY2VzlF2UKEsASwFLAmWM
+DXJlZ2V4cF9maWx0ZXKUjACUSv////+GlIwOc2VhcmNoX2luZGljZXOUXZQoSwBLAUsCZYwSc2Vs
+ZWN0ZWRfZG9jdW1lbnRzlF2UjBVudW1weS5jb3JlLm11bHRpYXJyYXmUjAZzY2FsYXKUk5SMBW51
+bXB5lIwFZHR5cGWUk5SMAlU3lImIh5RSlChLA4wBPJROTk5LHEsESwh0lGJDHG4AAABlAAAAdwAA
+AHIAAABhAAAAbgAAAGsAAACUhpRSlGFoBksBdYwKYXR0cmlidXRlc5QpjAVtZXRhc5RoEksDhpRo
+FEsDhpRoFksDhpSHlIwKY2xhc3NfdmFyc5QpdWJhdS4=
+</properties>
+		<properties node_id="2" format="pickle">gASVtwAAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5
+lENCAdnQywADAAAAAAG+AAAAXAAABswAAAM4AAABvwAAAIIAAAbLAAADNwAAAAAAAAAAB4AAAAG/
+AAAAggAABssAAAM3lIwOc2VsZWN0ZWRfd29yZHOUj5SMC3dvcmRzX2NvbG9ylIiMCndvcmRzX3Rp
+bHSUSwCMC19fdmVyc2lvbl9flEsBdS4=
+</properties>
+		<properties node_id="3" format="literal">{'autocommit': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xcc\x00\x00\x00\xca\x00\x00\x058\x00\x00\x03\x1d\x00\x00\x00\xcc\x00\x00\x00\xca\x00\x00\x058\x00\x00\x03\x1d\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00\xcc\x00\x00\x00\xca\x00\x00\x058\x00\x00\x03\x1d', 'storedsettings': {'name': '', 'preprocessors': [('preprocess.transform', {}), ('preprocess.tokenize', {'method': 3, 'pattern': '\\w+.'}), ('preprocess.filter', {'abs_end': 10, 'abs_start': 1, 'freq_type': 0, 'invalidated': False, 'language': 'English', 'lx_list': [], 'lx_path': None, 'methods': [0, 2], 'n_tokens': 100, 'pattern': '\\.|,|:|;|!|\\?|\\(|\\)|\\||\\+|\\\'|\\"|‘|’|“|”|\\\'|\\’|…|\\-|–|—|\\$|&amp;|\\*|&gt;|&lt;|\\/|\\[|\\]', 'pos_tags': 'NOUN,VERB', 'rel_end': 0.9, 'rel_start': 0.1, 'sw_list': [], 'sw_path': None})]}, '__version__': 3}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
